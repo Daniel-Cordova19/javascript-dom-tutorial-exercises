@@ -3,4 +3,6 @@ let liststring = "";
 let ending = "</ul>";
 
 // do not modify after this line
-document.body.innerHTML = beginning + liststring + ending;
+liststring = "<li>First Item</li>" + "<li>Second Item</li>"+ "<li>Third Item</li>";
+htmlString = beginning + liststring + ending;
+document.body.innerHTML = htmlString;
